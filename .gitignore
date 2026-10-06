@@ -1,0 +1,40 @@
+# Environment files may contain local or production credentials.
+.env
+.env.*
+!.env.example
+/env
+
+# Local Supabase CLI state.
+supabase/.temp/
+
+# Dependencies and generated build output.
+node_modules/
+dist/
+build/
+.output/
+.wrangler/
+.tanstack/
+.vite/
+.turbo/
+.vercel/
+.netlify/
+.parcel-cache/
+.cache/
+coverage/
+
+# Local tooling and editor state.
+.idea/
+.history/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Logs and operating-system files.
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+bun-debug.log*
+.DS_Store
+Thumbs.db
+Desktop.ini
